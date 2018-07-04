@@ -1,0 +1,26 @@
+$ mkdir mobile
+$ touch mobile/Requirements.txt
+$ mkdir readme_img
+$ echo "# quotesfield" >> README.md
+$ git init
+Commit..
+
+$ ng new quotesfield --directory client  --skip-git
+Commit..
+
+$ mkdir api
+$ cd api
+$ lb --skip-install
+    * Project name (api)? quotesfield
+    * Project dir_ (quotesfield)? /
+
+$ cd api/
+$ npm install loopback-connector-mongodb --save
+$ lb datasource mongoDS --connector mongoDB
+$ lb model
+Commit..
+
+$ cd client/
+$ npm install -s bootstrap jquery tether font-awesome
+$ npm install ngx-bootstrap --save
+Commit..
