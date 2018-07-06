@@ -23,3 +23,8 @@ Commit..
 $ cd client/
 $ npm install -s bootstrap jquery tether font-awesome ngx-bootstrap popper.js
 Commit..
+
+$ cd client/
+$ ng g component views/main
+$ ng g component views/navbar
+Commit..
