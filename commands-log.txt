@@ -21,6 +21,5 @@ $ lb model
 Commit..
 
 $ cd client/
-$ npm install -s bootstrap jquery tether font-awesome
-$ npm install ngx-bootstrap --save
+$ npm install -s bootstrap jquery tether font-awesome ngx-bootstrap popper.js
 Commit..

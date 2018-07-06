@@ -23,7 +23,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
               "node_modules/font-awesome/css/font-awesome.css",
               "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
@@ -110,6 +110,11 @@
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
             "devServerTarget": "quotesfield:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "quotesfield:serve:production"
+            }
           }
         },
         "lint": {
