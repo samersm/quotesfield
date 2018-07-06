@@ -7,3 +7,19 @@
 .white {
   color: white;
 }
+
+.text-img {
+  color: white;
+  font-weight: bold;
+  margin-top: 160px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-size: 30px;
+}
+
+.name-img {
+  color: white;
+  font-weight: normal;
+  padding: 0 0 0 0;
+  font-size: 18px;
+}
